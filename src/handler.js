@@ -32,11 +32,8 @@ const addNoteHandler = (request, h) => {
         message: 'Catatan gagal ditambahkan',
       });
       response.code(500);
-      return response;
-
- 
-};
-
+      return response; 
+  };
 const getAllNotesHandler = () => ({
     status: 'succes',
     data: {
